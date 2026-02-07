@@ -1,5 +1,5 @@
 ---
-name: stock-analyze
+name: yum_stock
 description: Macro-weighted US stock fundamental analysis with Buy/Hold/Sell verdicts gated by macro conditions.
 ---
 
