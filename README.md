@@ -8,7 +8,7 @@ These `.md` skill files work with any AI tool that supports prompt/instruction f
 
 | Skill | Description |
 |-------|-------------|
-| [yum_stock](yum_stock/) | Macro-weighted US stock analysis. Scores 7 macro indicators (Fear & Greed, Fed liquidity, NFCI, BDI, ISM, LEI, yield curve) to gate Buy/Hold/Sell verdicts, then runs full fundamentals + 3 related stocks. |
+| [yumstock](yumstock/) | Macro-weighted US stock analysis. Scores 7 macro indicators (Fear & Greed, Fed liquidity, NFCI, BDI, ISM, LEI, yield curve) to gate Buy/Hold/Sell verdicts, then runs full fundamentals + 3 related stocks. |
 
 ---
 
@@ -24,7 +24,7 @@ git clone https://github.com/yumyumtum/YumSkills.git
 mkdir -p ~/.github/prompts
 
 # Copy the skill
-cp YumSkills/yum_stock/SKILL.md ~/.github/prompts/yum_stock.prompt.md
+cp YumSkills/yumstock/SKILL.md ~/.github/prompts/yumstock.prompt.md
 ```
 
 ### 2. Enable prompt files in VS Code settings
@@ -44,10 +44,10 @@ Open your settings JSON (`Cmd+Shift+P` → **Preferences: Open User Settings (JS
 
 ### 4. Verify the skill is loaded
 
-In the Copilot Chat panel, click the **paperclip / attach** icon (or type `#`) → select **"Prompt..."** — you should see **yum_stock** in the list. If it appears, the skill is active and ready to use.
+In the Copilot Chat panel, click the **paperclip / attach** icon (or type `#`) → select **"Prompt..."** — you should see **yumstock** in the list. If it appears, the skill is active and ready to use.
 
 If you do **not** see it:
-- Confirm the file exists: `ls ~/.github/prompts/yum_stock.prompt.md`
+- Confirm the file exists: `ls ~/.github/prompts/yumstock.prompt.md`
 - Confirm `chat.promptFiles` is `true` in your settings
 - Reload VS Code again
 
