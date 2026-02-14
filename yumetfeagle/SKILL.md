@@ -151,11 +151,11 @@ For **each** of the 10 selected ETFs (5 top + 5 bottom), run the **full yumstock
 
 | Assessment | Score Range |
 |------------|------------|
-| Strong sector growth, cheap valuation, positive flows, liquid | +0.7 to +1.0 |
-| Solid sector fundamentals, fair valuation | +0.3 to +0.6 |
-| Mixed sector outlook, average valuation | -0.2 to +0.2 |
-| Weakening sector, rich valuation, outflows | -0.6 to -0.3 |
-| Declining sector, overvalued, heavy outflows | -1.0 to -0.7 |
+| Strong sector growth, cheap valuation, positive flows, liquid | +70 to +100 |
+| Solid sector fundamentals, fair valuation | +30 to +60 |
+| Mixed sector outlook, average valuation | -20 to +20 |
+| Weakening sector, rich valuation, outflows | -60 to -30 |
+| Declining sector, overvalued, heavy outflows | -100 to -70 |
 
 #### Phase 2 Output Format (Per ETF)
 
@@ -167,12 +167,14 @@ For each of the 10 ETFs, present:
 2. **Technical Score** and Signal (BULLISH / LEAN-BULLISH / NEUTRAL / LEAN-BEARISH / BEARISH)
 3. **Buy-Point Structure Assessment** (Class A / Class B / None / Anti-pattern)
 4. **ETF Fundamental Scorecard** (the 6-metric table above)
-5. **Fundamental Score** (-1.0 to +1.0)
+5. **Fundamental Score** (-100 to +100)
 6. **Composite Score** = (Tech × 0.35) + (Fund × 0.25) + (Macro × 0.40)
 7. **Raw Verdict** (BUY / HOLD / SELL based on composite)
 8. **Final Verdict** (after macro gating)
 
 Keep each ETF analysis concise — aim for ~200 words per ETF (total ~2000 words for all 10).
+
+**Note:** All scores are now on a -100 to +100 scale for easier interpretation. For example, a composite score of +56 means 56 out of 100 (moderately bullish).
 
 ---
 
@@ -242,6 +244,7 @@ Highlight the **single best ETF** among all 10 analyzed:
 5. Keep total output under 4000 words (screening + 10 ETF analyses + synthesis).
 6. State the **data date** for all prices and indicators.
 7. Clearly label each ETF as "Top 5 (Momentum)" or "Bottom 5 (Laggard)" throughout.
+8. **Scoring note:** All scores use a -100 to +100 scale (e.g., +56 means 56 out of 100, moderately bullish).
 
 ## Disclaimer
 
