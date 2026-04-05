@@ -15,6 +15,50 @@ These skills work with [OpenClaw](https://openclaw.ai) and can be installed via 
 
 ---
 
+## Gallery
+
+### 🎋 Zen Koan Daily - AI Ink Wash Art
+
+<table>
+  <tr>
+    <td width="50%">
+      <img src=".github/images/zen-koan-zhaozhou-dog.png" alt="赵州狗子 (Zhaozhou's Dog)" />
+      <p align="center"><em>赵州狗子 (Zhaozhou's Dog)</em></p>
+    </td>
+    <td width="50%">
+      <img src=".github/images/zen-koan-gutei-finger.png" alt="俱胝竖指 (Gutei's Finger)" />
+      <p align="center"><em>俱胝竖指 (Gutei's Finger)</em></p>
+    </td>
+  </tr>
+</table>
+
+**Features**: Dynamic LLM generation • Chinese ink wash style • Bilingual lectures • Personalized insights • TTS audio
+
+### 🎮 YumFu - Multi-World MUD Game
+
+<table>
+  <tr>
+    <td width="33%">
+      <img src=".github/images/yumfu-game-of-thrones.png" alt="Game of Thrones World" />
+      <p align="center"><em>Game of Thrones</em></p>
+    </td>
+    <td width="33%">
+      <img src=".github/images/yumfu-harry-potter.png" alt="Harry Potter World" />
+      <p align="center"><em>Harry Potter</em></p>
+    </td>
+    <td width="33%">
+      <img src=".github/images/yumfu-warrior-cats.png" alt="Warrior Cats World" />
+      <p align="center"><em>Warrior Cats</em></p>
+    </td>
+  </tr>
+</table>
+
+**Features**: AI-generated scene art • 4 immersive worlds • Real-time combat • Quest system • Full MUD gameplay
+
+*Note: YumFu is published separately at [github.com/yumyumtum/yumfu](https://github.com/yumyumtum/yumfu)*
+
+---
+
 ## Installation
 
 ### Option 1: OpenClaw + ClawHub (Recommended)
