@@ -39,16 +39,16 @@ These skills work with [OpenClaw](https://openclaw.ai) and can be installed via 
 <table>
   <tr>
     <td width="33%">
-      <img src=".github/images/yumfu-game-of-thrones.png" alt="Game of Thrones World" />
-      <p align="center"><em>Game of Thrones</em></p>
+      <img src=".github/images/yumfu-game-of-thrones.png" alt="Fantasy World - Political Intrigue" />
+      <p align="center"><em>Medieval Fantasy</em></p>
     </td>
     <td width="33%">
-      <img src=".github/images/yumfu-harry-potter.png" alt="Harry Potter World" />
-      <p align="center"><em>Harry Potter</em></p>
+      <img src=".github/images/yumfu-harry-potter.png" alt="Magic School World" />
+      <p align="center"><em>Magic Academy</em></p>
     </td>
     <td width="33%">
-      <img src=".github/images/yumfu-warrior-cats.png" alt="Warrior Cats World" />
-      <p align="center"><em>Warrior Cats</em></p>
+      <img src=".github/images/yumfu-warrior-cats.png" alt="Animal Adventure World" />
+      <p align="center"><em>Clan Survival</em></p>
     </td>
   </tr>
 </table>
