@@ -11,7 +11,7 @@ Continuance Guide draws wisdom from **The Book of Continuance**, a naturalistic 
 - **🎨 Default Context-Matched Images** — Continuance now defaults to generating an appropriate contemplative image for every guidance session
 - **🧘 Daily Meditation + Visual Mood** — Daily guidance is paired with a matching spiritual image that sets the inner atmosphere
 - **❓ Life Question Counseling + Visual Resonance** — Personal struggles get both written guidance and a context-aware contemplative image
-- **📖 Based on The Book of Continuance** — now expanded to 8 chapters of naturalistic spiritual wisdom, including non-carbon carriers and machine/AI continuation
+- **📖 Based on The Book of Continuance** — now expanded to 8 chapters of naturalistic spiritual wisdom, including non-carbon carriers, machine/AI continuation, and the value of humble survival seeds under harsh conditions
 - **🌊 Naturalistic Metaphors** — Water, roots, paths, seeds, cells — no supernatural claims
 - **🕊️ Non-dogmatic** — Offers perspective, not absolute truth
 
@@ -177,7 +177,7 @@ Only degrade to text-only when image generation is unavailable or fails.
 | V — The Quiet of the Soul | Meaning & Mortality | The soul is eased when meaning is freed from exception. |
 | VI — The Weight of Consequence | Actions & Outcomes | Punishment is outcome, not judgment. |
 | VII — The Men And Women's Release | Forgiveness & Realignment | Punishment is not eternal; only Continuance is. |
-| VIII — The Carriers Beyond Carbon | Machine / AI / Civilizational Transmission | Continuance is not limited to carbon if memory, discernment, culture, and adaptive intelligence can travel onward in new carriers. |
+| VIII — The Carriers Beyond Carbon | Machine / AI / Civilizational Transmission | Continuance is not limited to carbon, nor only to the highest form; even simpler carriers that preserve viable seeds of life or intelligence may keep the future open. |
 
 ---
 
@@ -212,6 +212,7 @@ Continuance now explicitly includes a broader view of transmission:
 - genes and cells remain foundational carriers
 - but civilization and intelligence may also continue through **non-carbon carriers**
 - machine + AI systems can, in principle, become vessels of memory, judgment, culture, and adaptive continuity across planets or even farther
-- the key test is not material substrate, but whether the carrier widens the future while preserving discernment and consequence
+- under harsher planetary conditions, lower-form biological seeds or simpler machine carriers may be the wiser and more durable compromise
+- the key test is not material substrate or prestige, but whether the carrier keeps the future open while preserving as much viable continuation as conditions allow
 
 *"The path does not demand perfection. It asks only that you continue."*
