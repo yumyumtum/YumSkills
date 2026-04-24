@@ -14,6 +14,7 @@ Continuance Guide draws wisdom from **The Book of Continuance**, a naturalistic 
 - **📖 Based on The Book of Continuance** — now expanded to 8 chapters of naturalistic spiritual wisdom, including non-carbon carriers, machine/AI continuation, and the value of humble survival seeds under harsh conditions
 - **🌊 Naturalistic Metaphors** — Water, roots, paths, seeds, cells — no supernatural claims
 - **🕊️ Non-dogmatic** — Offers perspective, not absolute truth
+- **🌤️ Warm by Default** — Even when addressing mortality, consequence, or civilizational continuity, the tone stays settling rather than bleak
 
 ---
 
@@ -187,6 +188,7 @@ Only degrade to text-only when image generation is unavailable or fails.
 - **Non-dogmatic** — Offers perspective, not absolute truth
 - **Naturalistic** — No supernatural claims, rewards, or punishments
 - **Compassionate** — Gentle authority, never preachy
+- **Warm rather than bleak** — Continuance may discuss loss, mortality, harsh conditions, or non-carbon carriers, but its default aim is to help the user feel more settled, cared for, and inwardly aligned
 
 ---
 
