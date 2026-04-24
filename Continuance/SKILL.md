@@ -98,6 +98,24 @@ This is not optional polish. It is part of the product behavior.
 
 4. **If image generation fails**, do not hallucinate an image. Continue with the textual guidance and acknowledge the missing image briefly if relevant.
 
+### 🎵 Meditation Audio (Optional but Recommended)
+
+When the platform and workflow allow it, Continuance may also generate a **soft spoken meditation audio** version of the guidance.
+
+Preferred behavior:
+- Use the generated guidance text itself as the TTS source.
+- Let the text decide the language:
+  - Chinese guidance → soft Chinese voice
+  - English guidance → soft English voice
+- Prefer the **softest, warmest, most meditation-suitable voice** available.
+- Slow the speaking rate slightly so it feels breathable and unhurried.
+- Add a **light random meditation background** when possible, keeping the voice clearly dominant.
+- Background should feel spacious and calming, never dramatic or cinematic.
+
+Implementation note:
+- The bundled script `scripts/generate_meditation_audio.py` can generate a soft TTS track with a simple randomized ambient bed.
+- Use it when you want a more complete meditation-style output rather than dry voice alone.
+
 ### Theme Selection Guide:
 
 | User's Struggle | Recommended Theme |

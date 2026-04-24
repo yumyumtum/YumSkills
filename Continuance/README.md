@@ -35,6 +35,38 @@ cp -r YumSkills/continuance ~/.openclaw/skills/
 
 ---
 
+## 🔊 Meditation Audio Setup
+
+Continuance can also generate a **soft meditation audio** track from the guidance text itself.
+
+### Behavior
+- The generated text determines the language automatically:
+  - Chinese text → Chinese voice
+  - English text → English voice
+- Voice should be soft, warm, slow, and suitable for meditation.
+- A light randomized ambient background can be mixed underneath the speech.
+- The goal is not a podcast or dramatic narration; it should feel like a quiet guided reflection.
+
+### Local generator
+Bundled helper:
+- `scripts/generate_meditation_audio.py`
+
+Requirements already used by this helper:
+- `edge-tts`
+- `ffmpeg`
+- `ffprobe`
+
+Example:
+```bash
+python3 scripts/generate_meditation_audio.py \
+  --text "今天你不需要更快。你只需要更稳，更柔和地继续。" \
+  --theme rest \
+  --date 20260424
+```
+
+Output:
+- `~/.openclaw/media/outbound/continuance/continuance-meditation-YYYYMMDD.mp3`
+
 ## 🖼️ Image Generation Setup
 
 Continuance is designed to work best when OpenClaw image generation is configured.
