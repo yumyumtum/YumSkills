@@ -1,12 +1,24 @@
 # Daily Tongjian / 每日资治通鉴
 
-A skill for reading **Zizhi Tongjian (资治通鉴)** progressively, one lecture at a time.
+**English**
 
-一个面向《资治通鉴》的每日讲史 skill：
+A bilingual skill for reading **Zizhi Tongjian (资治通鉴)** progressively, one lecture at a time.
+It is designed as a daily historical lecture experience with:
+- progressive volume-by-volume reading (all 294 volumes)
+- auto-tracked progress
+- full lecture text by default
+- generated scene art
+- voice narration
+
+**中文**
+
+这是一个面向 **《资治通鉴》** 的双语讲史 skill，按“每日一讲”的方式逐卷推进。
+默认特性包括：
 - **逐卷推进**（294卷）
 - **自动记录进度**
-- 默认生成 **完整讲稿 + 配图 + 语音**
-- 支持中文 / English 模式
+- **完整讲稿**（不是短摘要）
+- **历史场景配图**
+- **语音朗读**
 
 ## What it does
 

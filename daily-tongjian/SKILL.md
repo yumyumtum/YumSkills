@@ -1,11 +1,10 @@
 ---
 name: daily-tongjian
 description: >
-  每日通读《资治通鉴》— 逐卷逐段推进，自动追踪阅读进度（294卷）。
-  包含古文原文、白话翻译（或英文翻译）、深度点评，支持配图与语音。
   Daily reading of Comprehensive Mirror to Aid in Government (资治通鉴) — all 294 volumes,
-  auto-tracked progress, classical text + translation + commentary.
-  Triggers: 「资治通鉴」「通鉴」「daily tongjian」「今日通鉴」「继续读通鉴」「tongjian」
+  with auto-tracked progress, full lecture text, image generation, and voice narration.
+  每日通读《资治通鉴》——逐卷逐讲推进，自动追踪进度，默认生成完整讲稿、配图与语音。
+  Triggers / 触发词: 「资治通鉴」「通鉴」「daily tongjian」「今日通鉴」「继续读通鉴」「tongjian」
 ---
 
 # 每日通鉴 Daily Tongjian

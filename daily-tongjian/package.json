@@ -1,7 +1,7 @@
 {
   "name": "daily-tongjian",
   "version": "0.1.0",
-  "description": "Daily reading of Zizhi Tongjian (资治通鉴) with auto-tracked progress, full lecture text, scene art, and voice narration. | 每日通读《资治通鉴》，自动追踪进度，默认交付完整讲稿、生图与语音。",
+  "description": "Daily Tongjian / 每日资治通鉴 — progressive reading of Zizhi Tongjian (资治通鉴) with auto-tracked progress, full lecture text, scene art, and voice narration. | 逐卷逐讲通读《资治通鉴》，自动追踪进度，默认交付完整讲稿、配图与语音。",
   "keywords": [
     "zizhi-tongjian",
     "history",
