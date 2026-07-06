@@ -176,6 +176,18 @@ python3 SKILL_DIR/scripts/progress.py status
 python3 SKILL_DIR/scripts/progress.py advance --title "本讲标题" --next "下讲预告标题"
 ```
 
+### Step 6.5: 存副本到回放库（配合 daily-replay · 重要）
+
+为了让「续听 / 重听」以后能稳定调出本讲，交付时**除了发给用户，还要把文字与音频各存一份**
+到 `~/.openclaw/media/outbound/`，且用 **daily-replay 能识别的命名**（`N` = 本讲讲号，`YYYYMMDD` = 交付日期）：
+
+- 音频：`~/.openclaw/media/outbound/tongjian-lecture-N-YYYYMMDD.mp3`（英文版加 `-en`）
+- 文字：`~/.openclaw/media/outbound/tongjian-lecture-N-YYYYMMDD.txt`（只放可回放的讲稿正文）
+- 配图：`~/.openclaw/media/outbound/tongjian-lecture-N-YYYYMMDD.jpg`（把本讲配图 **复制一份**到此路径；图通常生成在 `tool-image-generation/`，要用 `cp` 拷过来）
+
+这样 daily-replay 的 `index` 会自动纳入本讲，用户日后可说「继续听通鉴」/「重听通鉴 第N讲」直接调出。
+这一步失败**不阻塞**已完成的交付（吞错继续），但要尽量完成。
+
 如果图或语音因技术原因失败：
 - 仍可先交付已经完成的内容
 - 但不要因为失败而把正文缩成短摘要
