@@ -12,6 +12,8 @@ These skills work with [OpenClaw](https://openclaw.ai) and can be installed via 
 | [yumetfeagle](yumetfeagle/) | **ETF sector rotation scanner.** Scans 40 US sector/industry ETFs for 2-week momentum, selects the Top 5 leaders and Bottom 5 laggards, then runs full yumstock three-pillar analysis on each. Synthesises findings into sector rotation insights and an "Eagle's Pick" — the single best ETF opportunity. | 📊 Markets |
 | [zen-koan-daily](zen-koan-daily/) | **Daily Zen Buddhist koan with AI ink wash art and TTS audio.** Uses LLM to dynamically generate koans from classical sources (无门关, 碧岩录, 从容录). Includes Chinese ink wash painting (Gemini AI), TTS narration (Edge TTS, free), bilingual support (中文/English), and personalized insights based on user context. | 🎋 Spirituality |
 | [Continuance](Continuance/) | **Daily spiritual guidance from The Book of Continuance.** Naturalistic scripture on persistence, alignment, and the soul's place within the flow of life. Generates daily reflections with TTS audio. Answers life doubts and provides mental guidance. | 🌱 Spirituality |
+| [daily-ramayana](daily-ramayana/) | **每日罗摩衍那 — daily lecture on the Vālmīki Rāmāyaṇa.** Reads all 7 Kāṇḍas from the bundled public-domain English text (Griffith Books 1–6 + M. N. Dutt Book 7), one segment per episode. Each episode is a Chinese lecture (English excerpt, 中文译述, cultural background), an Indian-miniature illustration, and Chinese TTS. Progress is tracked automatically. | 📜 Spirituality |
+| [daily-library](daily-library/) | **Shared archive for the daily reading skills.** `library.py` files each episode's lecture, image, and audio into a per-book folder ordered by chapter or episode, and keeps `index.md` / `book.json`. `export_book.py` exports a whole book as ordered Markdown and HTML. On install, copy or symlink this folder to `/workspace/library/`. | 📚 Library |
 
 ---
 
@@ -69,12 +71,14 @@ clawhub install yumstock
 clawhub install yumetfeagle
 clawhub install zen-koan-daily
 clawhub install continuance
+clawhub install daily-ramayana
 
 # Use in OpenClaw
 /yumstock AAPL
 /yumetfeagle
 /koan
 /continuance
+继续读罗摩衍那
 ```
 
 ### Option 2: Manual Installation
@@ -85,6 +89,9 @@ Clone and copy skill files to your OpenClaw skills directory:
 git clone https://github.com/yumyumtum/YumSkills.git
 cp -r YumSkills/zen-koan-daily ~/.openclaw/skills/
 cp -r YumSkills/Continuance ~/.openclaw/skills/
+cp -r YumSkills/daily-ramayana ~/.openclaw/skills/
+# daily-library is not a skill; the reading skills call it at /workspace/library/
+ln -sfn "$(pwd)/YumSkills/daily-library" /workspace/library
 ```
 
 ### Option 3: VS Code + GitHub Copilot (Legacy)
@@ -177,6 +184,23 @@ Generates a Zen koan from classical sources, with:
 ```
 Reflections from The Book of Continuance on persistence, flow, and alignment.
 
+### 📜 Ramayana
+
+**daily-ramayana** — 每日罗摩衍那:
+```
+继续读罗摩衍那
+```
+Reads the next segment of the Vālmīki Rāmāyaṇa (all 7 Kāṇḍas) and delivers a Chinese lecture, an Indian-miniature illustration, and TTS audio. Say「导出 罗摩衍那」to export the archived episodes as a book.
+
+### 📚 Library
+
+**daily-library** — archive and export:
+```bash
+python3 /workspace/library/library.py status --book ramayana
+python3 /workspace/library/export_book.py ramayana
+```
+Files each episode into a per-book folder (`tongjian/`, `xuanzang/`, `ramayana/`, `zen-koan/`) and can export a whole book as ordered Markdown and HTML.
+
 ---
 
 ## Features
@@ -200,6 +224,17 @@ Reflections from The Book of Continuance on persistence, flow, and alignment.
 - Daily reflections from The Book of Continuance
 - TTS audio narration
 - Life guidance and mental clarity
+
+### 📜 Ramayana (daily-ramayana)
+- All 7 Kāṇḍas from bundled public-domain English (Griffith Books 1–6, M. N. Dutt Book 7)
+- Chinese lecture with English excerpt, 中文译述, and cultural background
+- Indian-miniature illustration and Chinese TTS
+- Auto-tracked progress, one segment per episode
+
+### 📚 Library (daily-library)
+- Per-book folders ordered by chapter or episode
+- `index.md` and `book.json` maintained by `library.py`
+- Whole-book Markdown / HTML export via `export_book.py`
 
 ---
 
